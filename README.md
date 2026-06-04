@@ -6,9 +6,9 @@
 
 ## Overview
 
-SNAP — the Supplemental Nutrition Assistance Program — is a federal entitlement. If your household income falls below 130 percent of the federal poverty line, you are legally eligible. The money is appropriated. There is no waitlist. And yet in 2023, the Program Access Index ranged from 0.36 in Wyoming to 1.32 in the District of Columbia. A gap that large, between states administering the same federal program to the same eligibility standard, demands an explanation.
+SNAP the Supplemental Nutrition Assistance Program is a federal entitlement. If your household income falls below 130 percent of the federal poverty line, you are legally eligible. The money is appropriated. There is no waitlist. And yet in 2023, the Program Access Index ranged from 0.36 in Wyoming to 1.32 in the District of Columbia. A gap that large, between states administering the same federal program to the same eligibility standard, demands an explanation.
 
-This project investigates one candidate: administrative burden. States make different choices about how burdensome they make the process of applying for and keeping SNAP benefits — whether they offer online applications, how frequently they require recertification, whether they adopt simplified reporting for working households. This repository builds a composite burden index from four policy variables, estimates its association with participation across a decade of state-level data, and uses the staggered rollback of pandemic-era Emergency Allotments in 2022 and 2023 as a quasi-experiment to test whether a large, sudden policy change produced a detectable change in enrollment.
+This project investigates one candidate: administrative burden. States make different choices about how burdensome they make the process of applying for and keeping SNAP benefits whether they offer online applications, how frequently they require recertification, whether they adopt simplified reporting for working households. This repository builds a composite burden index from four policy variables, estimates its association with participation across a decade of state-level data, and uses the staggered rollback of pandemic-era Emergency Allotments in 2022 and 2023 as a quasi-experiment to test whether a large, sudden policy change produced a detectable change in enrollment.
 
 ---
 
@@ -16,7 +16,7 @@ This project investigates one candidate: administrative burden. States make diff
 
 **Cross-sectional association is large.** Moving from the lowest to the highest burden state is associated with participation roughly 2.4 percent lower, a result that holds across multiple specifications and is statistically significant at the one percent level.
 
-**Within-state estimate shrinks to near zero.** After absorbing stable state differences and national year trends with two-way fixed effects, the coefficient on the burden index falls to −0.046 and is statistically indistinguishable from zero. This is consistent with state-level selection — states that design high-burden programs tend to be states with structurally lower participation for reasons beyond the paperwork.
+**Within-state estimate shrinks to near zero.** After absorbing stable state differences and national year trends with two-way fixed effects, the coefficient on the burden index falls to −0.046 and is statistically indistinguishable from zero. This is consistent with state-level selection  states that design high-burden programs tend to be states with structurally lower participation for reasons beyond the paperwork.
 
 **Simplified reporting is the most robust signal.** Of the four burden components, only the absence of simplified reporting for earners survives the two-way fixed effects test, showing participation 12 percent lower in states without it (p-value = 0.018). This points to compliance costs for working households as a specific, actionable policy lever.
 
@@ -80,7 +80,7 @@ Each script reads from the previous script's saved outputs. No script modifies a
 
 ## Limitations
 
-This analysis uses publicly available aggregate data — state-year averages of participation counts and policy indicators. It cannot observe individual applications, denials, or churn. The two-way fixed effects estimate being near zero is a limitation of the research design, not a definitive claim that administrative burden has no effect. The event study parallel trends assumption is imperfect: early opt-out states skew Republican and are structurally different from states that kept Emergency Allotments through February 2023. Precise monthly Emergency Allotment opt-out dates for 2022 states are approximate and flagged for verification in the code comments.
+This analysis uses publicly available aggregate data  state-year averages of participation counts and policy indicators. It cannot observe individual applications, denials, or churn. The two-way fixed effects estimate being near zero is a limitation of the research design, not a definitive claim that administrative burden has no effect. The event study parallel trends assumption is imperfect: early opt-out states skew Republican and are structurally different from states that kept Emergency Allotments through February 2023. Precise monthly Emergency Allotment opt-out dates for 2022 states are approximate and flagged for verification in the code comments.
 
 ---
 
