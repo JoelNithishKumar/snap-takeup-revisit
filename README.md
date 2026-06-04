@@ -86,7 +86,7 @@ This analysis uses publicly available aggregate data  state-year averages of par
 
 ## Paper
 
-The full paper is available in `writing/article.md` and as a formatted document at [[(https://github.com/JoelNithishKumar/snap-takeup-revisit/blob/b730cb376f58a4800e064b47517b93b76ad0aff1/writing/Administrative%20Burden%20and%20SNAP%20Participation%20-%20A%20State-Panel%20Analysis%20with%20Evidence%20from%20the%20Emergency%20Allotment%20Rollback.docx)]. It is intended as a pre-doctoral research writing sample demonstrating familiarity with applied microeconomics methods, reproducible empirical workflows, and honest communication of identification assumptions and data limitations.
+The full paper is available in `writing/article.md` and as a formatted document at [[(https://github.com/JoelNithishKumar/snap-takeup-revisit/blob/b730cb376f58a4800e064b47517b93b76ad0aff1/writing/Administrative%20Burden%20and%20SNAP%20Participation%20-%20A%20State-Panel%20Analysis%20with%20Evidence%20from%20the%20Emergency%20Allotment%20Rollback.docx)]. It is intended as a research writing sample demonstrating familiarity with applied microeconomics methods, reproducible empirical workflows, and honest communication of identification assumptions and data limitations.
 
 ---
 
