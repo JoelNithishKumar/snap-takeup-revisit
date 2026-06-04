@@ -1,6 +1,6 @@
 # Administrative Burden and SNAP Participation: A State-Panel Analysis with Evidence from the Emergency Allotment Rollback
 
-**Joel Nithish Kumar Murugan** | Chicago, IL | [joelnithishkumar.work@gmail.com](mailto:joelnithishkumar.work@gmail.com)
+**Joel Nithish Kumar Murugan** 
 
 ---
 
